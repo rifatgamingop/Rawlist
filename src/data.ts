@@ -3,7 +3,7 @@ import { Channel, Member } from './types';
 export const initialChannels: Channel[] = [
   {
     id: '1',
-    name: '📢-announcements',
+    name: 'noticeboard',
     type: 'announcement',
     readonly: false,
     messages: [
@@ -19,21 +19,7 @@ export const initialChannels: Channel[] = [
         timestamp: new Date(),
       },
     ],
-  },
-  {
-    id: '2',
-    name: '💬-general',
-    type: 'text',
-    readonly: true,
-    messages: [],
-  },
-  {
-    id: '3',
-    name: '🔧-support',
-    type: 'text',
-    readonly: true,
-    messages: [],
-  },
+  }
 ];
 
 export const initialMembers: Member[] = [
