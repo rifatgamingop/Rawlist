@@ -25,4 +25,4 @@ export interface Member {
   banner?: string;
 }
 
-export type Role = 'owner' | 'admin' | 'moderator' | 'member';
+export type Role = 'owner' | 'admin' | 'moderator' | 'ogs' | 'hall of fame' | 'top known' | 'well known' | 'known' | 'loudest on cord' | 'hof loud' | 'mythical loud' | 'legend loud' | 'royal loud' | 'loudest screamer' | 'hof screamer' | 'emperor screamer' | 'hof nuker' | 'legendary nuker' | 'non-bypass nuker' | 'hof beefer' | 'u++' | 'u+' | 's++' | 's+' | 's' | 'a++' | 'a+' | 'a' | 'b' | 'c' | 'd' | 'f' | 'member';
